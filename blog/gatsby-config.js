@@ -15,12 +15,12 @@ module.exports = {
   siteMetadata: {
     title: `D.J. Larry Love's Blog`,
     description: ``,
-    author: `Mike Hunsicker`,
+    author: `D.J. Larry Love`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
     contact: {
-      name: `Mike Hunsicker`,
-      company: `Blogs Inc.`,
-      address: `PO Box 1234`,
+      name: `D.J Larry Love`,
+      company: `L.A. Sound on Wheels`,
+      address: `1100 Marion Ave ste 102`,
     },
   },
   plugins: [

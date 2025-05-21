@@ -24,7 +24,7 @@ const IndexPage = ( {data} ) => (
   <Layout>
     <Grid>
     {
-      data.allContentfulBlogPost.edges.map(edge => (
+      data.allContentfulBlogPostP1.edges.map(edge => (
         <Card key={edge.node.id}>
           <Link to={edge.node.slug}>
             <GatsbyImage
@@ -55,7 +55,7 @@ export default IndexPage
 
 export const query = graphql`
 {
-  allContentfulBlogPost {
+  allContentfulBlogPostP1 {
     edges {
       node {
         id

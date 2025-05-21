@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import { H1 } from '../components/Heading'
 
 const BlogPost = ({ data }) => {
-  const { title, body, heroImage } = data.contentfulBlogPost;
+  const { title, body, heroImage } = data.contentfulBlogPostP1;
 
   return (
     <Layout>
@@ -22,7 +22,7 @@ export default BlogPost;
 
 export const pageQuery = graphql`
   query blogPostQuery($slug: String!) {
-    contentfulBlogPost(slug: {eq: $slug}) {
+    contentfulBlogPostP1(slug: {eq: $slug}) {
       title
       slug
       body {
